@@ -1,0 +1,22 @@
+<p>Input control</p>
+
+<div class="container">
+  <input
+    type="text"
+    id="userName"
+    [(ngModel)]="userName"
+    (keyup.enter)="add()"
+  />
+  <div class="error" *ngIf="errors.length">
+    <div class="error-message" *ngFor="let error of errors">
+      {{ error }}
+    </div>
+  </div>
+  <button class="add">ADD</button>
+</div>
+
+<div class="users">
+  <div class="user" *ngFor="let user of users">{{ user }}</div>
+</div>
+
+<app-posts [userName]="userName"></app-posts>

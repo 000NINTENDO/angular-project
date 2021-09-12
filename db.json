@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "porst-1",
+      "author": "typicode",
+      "image_url": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "post-2",
+      "author": "typicode",
+      "image_url": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+    },
+    {
+      "id": 3,
+      "title": "posst-3",
+      "author": "typicode",
+      "image_url": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+    },
+    {
+      "id": 4,
+      "title": "post-4",
+      "author": "typicode",
+      "image_url": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    },
+    {
+      "title": "post-5",
+      "author": "unknown",
+      "id": 5,
+      "image_url": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
